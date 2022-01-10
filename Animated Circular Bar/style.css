@@ -4,8 +4,18 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
-body {
+body{
+    min-height: 100vh;
+    background: rgb(32, 32, 32);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    margin-top: 25px;
+}
+main {
     display: flex;
     justify-content: center;
     align-items: center;
